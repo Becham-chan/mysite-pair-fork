@@ -112,6 +112,60 @@ media/
 *.db
 *.pid
 
+# uv
+uv.lock
+
+# pip-tools
+requirements.txt.lock
+
+# pytest
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# jupyter
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Poetry
+poetry.lock
+
+# Node.js / npm / yarn (ถ้าใช้ frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Django static files (if using collectstatic)
+staticfiles/
+
+# Django secret key
+.secret_key
+
 # Ignore Django Migrations in Development if you are working on team
 
 # Only for Development only
